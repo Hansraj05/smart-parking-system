@@ -1,0 +1,7 @@
+gunicorn
+flask
+flask-cors
+pandas
+numpy
+scikit-learn
+joblib

@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f7f6;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Map Styling */
+#map {
+    height: 520px;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    border: 2px solid #fff;
+}
+
+/* Search Bar Container */
+#search-container {
+    margin: 10px auto;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+#location-input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
+
+#search-container button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#search-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Pulsing Marker Animation */
+.fused-pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% { stroke-width: 2; stroke-opacity: 1; }
+    50% { stroke-width: 10; stroke-opacity: 0.4; }
+    100% { stroke-width: 2; stroke-opacity: 1; }
+}
