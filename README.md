@@ -2,8 +2,8 @@
 
 An AI-powered, full-stack geospatial application that predicts parking availability using real-time user telemetry and Machine Learning.
 
-**🌍 Live Demo:** [INSERT_YOUR_GITHUB_PAGES_LINK_HERE]  
-**⚙️ Backend API:** [INSERT_YOUR_RENDER_URL_HERE]
+**🌍 Live Demo:** [https://hansraj05.github.io/smart-parking-system/]  
+**⚙️ Backend API:** [https://smart-parking-system-8.onrender.com/]
 
 ---
 
