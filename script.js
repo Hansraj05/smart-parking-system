@@ -112,7 +112,7 @@ function checkAutomaticStatus(uLat, uLng) {
  */
 async function fetchParking(lat, lng) {
     try {
-        const res = await fetch('https://smart-parking-system-7.onrender.com/predict', {
+        const res = await fetch('https://smart-parking-system-8.onrender.com/predict', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({ latitude: lat, longitude: lng })
@@ -155,7 +155,7 @@ async function fetchParking(lat, lng) {
  * UTILS: API Reporting & UI Notifications
  */
 async function reportActivity(name, action) {
-    await fetch('https://smart-parking-system-7.onrender.com/update_activity', {
+    await fetch('https://smart-parking-system-8.onrender.com/update_activity', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({ name: name, action: action })
